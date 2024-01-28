@@ -1,0 +1,26 @@
+name: NTIRE
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch::pytorch=1.12.1
+  - pytorch::torchvision=0.13.1
+  - conda-forge::cudatoolkit=11.3
+  - conda-forge::opencv
+  - conda-forge::matplotlib
+  - conda-forge::scikit-image
+  - conda-forge::scipy
+  - pip
+  - pip:
+    - timm
+    - gdown
+    - pyyaml
+    - fire
+    - tqdm
+    - yapf
+    - einops
+    - h5py
+    - requests
+    - lmdb
